@@ -3,11 +3,11 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
   font-size: 14px;
-  line-height: 17px;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 div.container-fluid {
@@ -15,7 +15,7 @@ div.container-fluid {
 }
 
 .header {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 h2 {
@@ -33,4 +33,9 @@ h2 {
 
 img.season {
   position: absolute;
+}
+
+.alert {
+  min-height: 50px;
+  padding-top: 14px;
 }

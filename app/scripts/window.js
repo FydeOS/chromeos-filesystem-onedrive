@@ -17,24 +17,18 @@
         var btnMount = document.querySelector("#btnMount");
         event.preventDefault();
         btnMount.setAttribute("disabled", "true");
-        $.toaster({message: chrome.i18n.getMessage("mountAttempt")});
+        $.toast({text: chrome.i18n.getMessage("mountAttempt"), loader: false});
         var request = {
             type: "mount"
         };
         chrome.runtime.sendMessage(request, function(response) {
             if (response && response.success) {
-                $.toaster({message: chrome.i18n.getMessage("mountSuccess")});
+                $.toast({text: chrome.i18n.getMessage("mountSuccess"), loader: false});
                 window.setTimeout(function() {
                     window.close();
-                }, 2000);
+                }, 1000);
             } else {
-                var msg = {title: chrome.i18n.getMessage("mountFail"), priority: "danger"};
-                if (response && response.error) {
-                    msg.message = response.error;
-                } else {
-                    msg.message = "Something wrong.";
-                }
-                $.toaster(msg);
+                $.toast({text: chrome.i18n.getMessage("mountFail"), loader: false});
                 btnMount.removeAttribute("disabled");
             }
         });

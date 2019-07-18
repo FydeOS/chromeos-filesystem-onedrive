@@ -127,10 +127,12 @@ module.exports = function (grunt) {
                         'styles/{,*/}*.*',
                         '_locales/{,*/}*.json',
                         'scripts/{,*/}*.js',
-                        'bower_components/bootstrap/dist/{,*/}/*.*',
+                        'assets/{,*/}*.*',
+                        // 'bower_components/bootstrap/dist/{,*/}/*.*',
                         'bower_components/jquery/dist/{,*/}/*.js',
-                        'bower_components/jquery.toaster/{,*/}/*.js',
-                        'window.html'
+                        'bower_components/jquery-toast-plugin/dist/{,*/}/*.*',
+                        'window.html',
+                        'manifest.json'
                     ]
                 }]
             }
@@ -139,7 +141,7 @@ module.exports = function (grunt) {
             dist: {
                 src: [
                     '<%= config.app %>/bower_components/jquery/dist/jquery.min.js',
-                    '<%= config.app %>/bower_components/jquery.toaster/dist/jquery.toaster.js',
+                    '<%= config.app %>/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js',
                     '<%= config.app %>/scripts/metadata_cache.js',
                     '<%= config.app %>/scripts/onedrive_client.js',
                     '<%= config.app %>/scripts/onedrive_fs.js',
