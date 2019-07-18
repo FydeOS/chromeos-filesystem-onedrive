@@ -8,7 +8,7 @@
     "description": "Application short name"
   },
   "appDescription": {
-    "message": "Use your OneDrive on FydeOS.",
+    "message": "在 FydeOS 上使用您的 OneDrive。",
     "description": "Application description"
   },
   "appTitle": {
@@ -16,27 +16,27 @@
     "description": "Header describing the server mount form."
   },
   "configManageSectionText": {
-    "message": "Your Microsoft Account",
+    "message": " 您的 Microsoft 帐户",
     "description": "Microsoft Account management."
   },
   "configManageLinkText": {
-    "message": "Manage Linked Applications",
+    "message": "管理已绑定的应用",
     "description": "Link to Microsoft Account permissions page."
   },
   "bugLinkTitle": {
-    "message": "Get Support",
+    "message": "获得支持",
     "description": "Link to Issues on GitHub."
   },
   "bugLinkText": {
-    "message": "Submit a bug of OneDrive for FydeOS",
+    "message": "提交 OneDrive for FydeOS 的 bug",
     "description": "Link to Issues on GitHub."
   },
   "configSyncFilesText": {
-    "message": "Synchronize files/folders automatically",
+    "message": "自动同步文件和文件夹",
     "description": "File sync configuration option."
   },
   "configFilesLimitText": {
-    "message": "Opened files limit",
+    "message": "打开文件的上限",
     "description": "Files limit configuration option."
   },
   "mountHeader": {
@@ -44,19 +44,19 @@
     "description": "Header describing the server mount form."
   },
   "mount": {
-    "message": "Mount",
+    "message": "启用",
     "description": "Label for a button that triggers the mount action."
   },
   "mountAttempt": {
-    "message": "Mounting...",
+    "message": "正在启用…",
     "description": "Popup notifcation that informs the user that the system is attempting to mount a new instance with the credentials they provided."
   },
   "mountSuccess": {
-    "message": "Mounted successfully",
+    "message": "启用成功",
     "description": "Popup notifcation that informs the user that the system successfully mounted a new instance with the credentials they provided."
   },
   "mountFail": {
-    "message": "Failed to mount",
+    "message": "启用失败",
     "description": "Popup notifcation that informs the user that the system failed to mount a new instance with the credentials they provided."
   }
 }
