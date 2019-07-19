@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "OneDrive for FydeOS",
+    "message": "OneDrive for FydeOS!",
     "description": "Application name"
   },
   "shortName": {
@@ -14,6 +14,10 @@
   "appTitle": {
     "message": "OneDrive for FydeOS",
     "description": "Header describing the server mount form."
+  },
+  "alertMessage": {
+    "message": "Attention! This feature is still in a testing phase, we cannot take responsibility for the potential data loss and all types of issues that might happen during installation, or provide technical support on time. Use at your own risk!",
+    "description": "Warning to display before using this extension."
   },
   "configManageSectionText": {
     "message": "Your Microsoft Account",

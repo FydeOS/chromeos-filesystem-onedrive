@@ -1,9 +1,17 @@
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Roboto Regular "), local("Roboto-Regular"), url(../assets/font/roboto-latin-400.woff2) format("woff2"), url(../assets/font/roboto-latin-400.woff) format("woff")
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-family: Roboto, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -11,31 +19,42 @@ body {
 }
 
 div.container-fluid {
-  padding: 0;
+  padding: 30px;
 }
 
-.header {
-  margin-top: 30px;
+.logo {
+    margin: 30px 0 60px 0;
 }
 
-h2 {
-  font-size: 23px;
-}
-
-.icon {
-  text-align: right;
-}
-
-.main {
-  text-align: center;
-  margin-top: 30px;
-}
-
-img.season {
-  position: absolute;
+h1 {
+  font-size: 28px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .alert {
   min-height: 50px;
-  padding-top: 14px;
+  padding: 14px 12px;
+}
+
+.alert-warning {
+    color: #967820;
+    background-color: #fff3cd !important;
+}
+
+.alert-box {
+    margin-bottom: 30px;
+}
+
+.button-wrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#btnMount {
+    background-color: #870611;
+    color: white;
+    height: 64px;
+    min-width: 280px;
+    font-size: 20px;
+    font-weight: normal;
 }

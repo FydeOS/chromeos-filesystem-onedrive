@@ -7,10 +7,14 @@
     var openWindow = function() {
         chrome.app.window.create("window.html", {
             outerBounds: {
-                width: 400,
-                height: 220
+                width: 720,
+                height: 480,
             },
-            resizable: false
+            resizable: false,
+            maxWidth: 720,
+            minWidth: 720,
+            maxHeight: 480,
+            minHeight: 480,
         });
     };
 
