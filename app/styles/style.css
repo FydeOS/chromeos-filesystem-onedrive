@@ -3,7 +3,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: local("Roboto Regular "), local("Roboto-Regular"), url(../assets/font/roboto-latin-400.woff2) format("woff2"), url(../assets/font/roboto-latin-400.woff) format("woff")
+  src: local("Roboto Regular"), local("Roboto-Regular"), url(../assets/font/roboto-latin-400.woff2) format("woff2"), url(../assets/font/roboto-latin-400.woff) format("woff")
 }
 
 * {
