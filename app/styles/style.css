@@ -57,4 +57,5 @@ h1 {
     min-width: 280px;
     font-size: 20px;
     font-weight: normal;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
 }
