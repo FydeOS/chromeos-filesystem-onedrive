@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "OneDrive for FydeOS",
+    "message": "OneDrive",
     "description": "Application name"
   },
   "shortName": {
@@ -12,7 +12,7 @@
     "description": "Application description"
   },
   "appTitle": {
-    "message": "OneDrive for FydeOS",
+    "message": "OneDrive",
     "description": "Header describing the server mount form."
   },
   "alertMessage": {
